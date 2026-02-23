@@ -11,6 +11,7 @@ public class HomePage extends BasePage {
     private By macbookLink = By.linkText("MacBook");
     private By iPhoneLink = By.linkText("iPhone");
     private By AppleCinemaLink = By.partialLinkText("Apple Cinema");
+    private By CanonEOS5DLink = By.partialLinkText("Canon EOS 5D");
 
     public HomePage(WebDriver driver) {
         super(driver);
@@ -21,6 +22,7 @@ public class HomePage extends BasePage {
     }
 
     public void clickMacBook() {
+
         wait.until(ExpectedConditions.elementToBeClickable(macbookLink)).click();
     }
 
@@ -28,7 +30,12 @@ public class HomePage extends BasePage {
             wait.until(ExpectedConditions.elementToBeClickable(iPhoneLink)).click();
     }
 
-    public void clickAppleCimema() {
+    public void clickAppleCinema() {
         wait.until(ExpectedConditions.elementToBeClickable(AppleCinemaLink)).click();
+    }
+
+    public void clickCanonEOS5D() {
+        wait.until(ExpectedConditions.elementToBeClickable(CanonEOS5DLink)).click();
+
     }
 }

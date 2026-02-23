@@ -1,6 +1,6 @@
 
 /*package page;*/
-package com.example.stepdefs;
+package stepdefs;
 
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
@@ -59,7 +59,14 @@ public class OpenCartSteps {
     public void click_AppleCinema() throws InterruptedException {
         Thread.sleep(2000);
         System.out.println("When - User clicks on Apple Cinema product");
-        home.clickAppleCimema();;
+        home.clickAppleCinema();;
+    }
+
+   @When("User clicks on Canon EOS 5D product")
+    public void User_clicks_on_Canon_EOS_5D_product() throws InterruptedException  {
+        Thread.sleep(2000);
+        System.out.println("When - User clicks on  Canon EOS 5D product");
+        home.clickCanonEOS5D();;
     }
 
     @Then("Product code text should be {string}")
