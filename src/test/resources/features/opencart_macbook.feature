@@ -19,3 +19,4 @@ Feature: OpenCart MacBook validation POM
     Given User navigates to OpenCart homepage
     When User clicks on Canon EOS 5D product
     Then Product code text should be "Product Code: Product 3"
+
