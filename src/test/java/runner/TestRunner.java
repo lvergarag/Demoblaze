@@ -9,6 +9,8 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {""}, // Asegúrate de que el nombre coincida exactamente con el paquete
         plugin = {"pretty"}
+
+        /*prueba*/
 )
 public class TestRunner {
 }
