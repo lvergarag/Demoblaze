@@ -12,7 +12,8 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class ProductPage extends BasePage {
 
-    private By productCode = By.xpath("//li[contains(text(), 'Product Code') or contains(text(), 'Producto')]");
+    private By productCode = By.className("name");
+  /*  private By productCode = By.xpath("//font[@dir='auto']//font[@dir='auto'][normalize-space()='Samsung Galaxy S6']')]"); */
   /*  private By productCode = By.xpath("//*[contains(text(),'Código de producto')]"); */
 
     public ProductPage(WebDriver driver) {

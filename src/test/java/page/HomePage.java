@@ -1,41 +1,39 @@
 
 package page;
 
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 
 public class HomePage extends BasePage {
 
-    private By macbookLink = By.linkText("MacBook");
-    private By iPhoneLink = By.linkText("iPhone");
-    private By AppleCinemaLink = By.partialLinkText("Apple Cinema");
-    private By CanonEOS5DLink = By.partialLinkText("Canon EOS 5D");
+    private By Samsunggalaxys6Link = By.linkText("Samsung galaxy s6");
+    private By NokialumiaLink = By.linkText("Nokia lumia 1520");
+    private By Nexus6Link = By.partialLinkText("Nexus 6");
+    private By Samsunggalaxys7Link = By.partialLinkText("Samsung galaxy s7");
 
     public HomePage(WebDriver driver) {
         super(driver);
     }
 
     public void open() {
-        driver.get("http://opencart.abstracta.us/");
+        driver.get("https://www.demoblaze.com/");
     }
 
-    public void clickMacBook() {
-
-        wait.until(ExpectedConditions.elementToBeClickable(macbookLink)).click();
+    public void clickSamsungs6() {
+        wait.until(ExpectedConditions.elementToBeClickable(Samsunggalaxys6Link)).click();
     }
 
-    public void clickiPhone() {
-            wait.until(ExpectedConditions.elementToBeClickable(iPhoneLink)).click();
+    public void clickNokiaLumia() {
+            wait.until(ExpectedConditions.elementToBeClickable(NokialumiaLink)).click();
     }
 
-    public void clickAppleCinema() {
-        wait.until(ExpectedConditions.elementToBeClickable(AppleCinemaLink)).click();
+    public void clickNexus6() {
+        wait.until(ExpectedConditions.elementToBeClickable(Nexus6Link)).click();
     }
 
-    public void clickCanonEOS5D() {
-        wait.until(ExpectedConditions.elementToBeClickable(CanonEOS5DLink)).click();
+    public void clickSamsunggalaxys7() {
+        wait.until(ExpectedConditions.elementToBeClickable(Samsunggalaxys7Link )).click();
 
     }
 }
