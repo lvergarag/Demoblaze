@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = {""}, // Asegúrate de que el nombre coincida exactamente con el paquete
         plugin = {"pretty"}
 
-/*pruega*/
+/*pruega  2323644*/
 
 )
 public class TestRunner {
