@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e12d47c6-953d-4aeb-aaf2-0213fdbb3915" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/ProductPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/ProductPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/stepdefs/OpenCartSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/stepdefs/DemoblazeSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/test/ProductTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/opencart_macbook.feature" beforeDir="false" />
-    </list>
+    <list default="true" id="e12d47c6-953d-4aeb-aaf2-0213fdbb3915" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,5 +176,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="comit" />
+    <MESSAGE value="comit 8 files" />
+    <option name="LAST_COMMIT_MESSAGE" value="comit 8 files" />
   </component>
 </project>
