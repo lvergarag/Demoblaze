@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e12d47c6-953d-4aeb-aaf2-0213fdbb3915" name="Changes" comment="" />
+    <list default="true" id="e12d47c6-953d-4aeb-aaf2-0213fdbb3915" name="Changes" comment="elimine 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="feature" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -39,23 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Cucumber Java.Feature: demoblaze.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Validate Nexus 6.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Validate Nokia lumia 1520.executor&quot;: &quot;Run&quot;,
-    &quot;Cucumber Java.Scenario: Validate Samsung galaxy s6.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.TestRunner.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Cucumber Java.Feature: demoblaze.executor": "Run",
+    "Cucumber Java.Scenario: Validate Nexus 6.executor": "Run",
+    "Cucumber Java.Scenario: Validate Nokia lumia 1520.executor": "Run",
+    "Cucumber Java.Scenario: Validate Samsung galaxy s6.executor": "Run",
+    "JUnit.TestRunner.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "to.speed.mode.migration.done": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="JUnit.TestRunner">
     <configuration name="Feature: demoblaze" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="7" />
@@ -165,6 +165,39 @@
       <option name="presentableId" value="Default" />
       <updated>1771938699630</updated>
     </task>
+    <task id="LOCAL-00001" summary="elimine">
+      <option name="closed" value="true" />
+      <created>1772080556651</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772080556651</updated>
+    </task>
+    <task id="LOCAL-00002" summary="elimine">
+      <option name="closed" value="true" />
+      <created>1772080586643</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772080586643</updated>
+    </task>
+    <task id="LOCAL-00003" summary="elimine 2">
+      <option name="closed" value="true" />
+      <created>1772080596067</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772080596067</updated>
+    </task>
+    <task id="LOCAL-00004" summary="elimine 2">
+      <option name="closed" value="true" />
+      <created>1772080701160</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772080701160</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -181,6 +214,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comit" />
     <MESSAGE value="comit 8 files" />
-    <option name="LAST_COMMIT_MESSAGE" value="comit 8 files" />
+    <MESSAGE value="elimine 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="elimine 2" />
   </component>
 </project>
