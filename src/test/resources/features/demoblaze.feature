@@ -13,7 +13,7 @@ Feature: Demoblaze
   Scenario: Validate Nexus 6
     Given User navigates to Demoblaze homepage
     When User clicks on Nexus 6 product
-    Then Product code text should be "Nexus 7"
+    Then Product code text should be "Nexus 6"
 
   Scenario: Validate Samsung galaxy s7
     Given User navigates to Demoblaze homepage
